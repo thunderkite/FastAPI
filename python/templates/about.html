@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+</head>
+<body>
+    <h1>О нас</h1>
+    <nav>
+        <a href="{{ url_for('home') }}">Главная</a> |
+        <a href="{{ url_for('about') }}">О нас</a> |
+        <a href="{{ url_for('contact') }}">Контакты</a>
+    </nav>
+</body>
+</html>
