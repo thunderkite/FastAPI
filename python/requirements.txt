@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+jinja2
+python-multipart  # Обычно требуется для FastAPI, даже если явно не импортируется в вашем коде
+starlette
